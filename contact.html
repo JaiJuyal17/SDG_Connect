@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
+</script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="logo.png"></a> 
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="comm.html">Committees</a></li>
+                <li><a href="assets/Brochure.pdf" target="_blank">Brochure</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      <h1>Contact Us</h1>
+      <script src="script.js"></script>
+        <script>
+           var navLinks = document.getElementById("navLinks")
+    
+         function showMenu(){
+            navLinks.style.right = "0";
+        }
+    
+         function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        </script>        
+    </section>
+
+    
+        
+   <section class="form">
+    <h1>Query Box</h1>
+    <iframe data-tally-src="https://tally.so/embed/mZVpYA?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1" frameborder="0" marginheight="0" marginwidth="0" title="Query Box "></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+  
+
+
+   </section>
+   <section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+          
+        <div>
+            <i class="fa fa-envelope" style="font-size: 20px;"></i>
+            <span id="email_links">
+                <h5 id="email">camun.csi@gmail.com , ketaksachdeva@gmail.com , saumya.bar@gmail.com</h5>
+                <p>For queries , kindly contact</p>
+            </span>
+           </div>
+           <div style="margin-top: -30px;">
+           <i class="fa fa-phone" style="font-size: 25px;"></i>
+            <span style="padding-left: 1px;padding-top: 40px;">
+                                <ul>
+                    <li>+91 9990696565 [ ANITA SHUKLA - Convenor ] </li>
+                    <li>+91 9667113360 [ SAUMYA BARANWAL - Secretary General ] </li>
+                    <li> +91 8920562383 [ KETAK SACHDEVA - Deputy Secretary General ] </li>
+
+                
+                </ul>
+            </span>
+        </div>
+           </div>
+        </div>
+</div>
+</section>
+<section class="footer">
+    <p id="footer"> <i>Designed By - Jai Juyal</i> </p>
+    <p id="extra">Copyright © 2024 CAMUN , Cambridge School Indirapuram | All rights reserved.</p>
+   </section>      
+
+</body>
